@@ -15,11 +15,10 @@ public class Product {
     private double price;
     private int stockQuantity;
 
-    // Default constructor
+
     public Product() {
     }
 
-    // Constructor with fields
     public Product(String name, String description, double price, int stockQuantity) {
         this.name = name;
         this.description = description;
@@ -27,7 +26,6 @@ public class Product {
         this.stockQuantity = stockQuantity;
     }
 
-    // Getters and setters
     public Long getId() {
         return id;
     }

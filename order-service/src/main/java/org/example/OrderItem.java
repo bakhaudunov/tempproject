@@ -16,11 +16,11 @@ public class OrderItem {
     private double productPrice;
     private int quantity;
 
-    // Default constructor
+
     public OrderItem() {
     }
 
-    // Constructor with fields
+
     public OrderItem(Long productId, String productName, double productPrice, int quantity) {
         this.productId = productId;
         this.productName = productName;

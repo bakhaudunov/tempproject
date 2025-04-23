@@ -14,7 +14,6 @@ public class DataInitializer implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        // Add sample products
         productRepository.save(new Product("Laptop", "High-performance laptop", 1299.99, 10));
         productRepository.save(new Product("Smartphone", "Latest smartphone", 799.99, 15));
         productRepository.save(new Product("Headphones", "Noise-cancelling headphones", 149.99, 20));

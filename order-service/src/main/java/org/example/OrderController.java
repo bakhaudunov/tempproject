@@ -18,7 +18,7 @@ public class OrderController {
     private ProductClient productClient;
 
     @GetMapping
-    public List<Order> getAllOrders() { // ✅ указали List<Order>
+    public List<Order> getAllOrders() {
         return orderRepository.findAll();
     }
 

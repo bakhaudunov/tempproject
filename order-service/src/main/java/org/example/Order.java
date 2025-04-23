@@ -34,7 +34,7 @@ public class Order {
         this.shippingAddress = shippingAddress;
     }
 
-    // Геттеры и сеттеры
+
     public Long getId() {
         return id;
     }

@@ -1,0 +1,44 @@
+
+- **Метод:** `GET`
+http://localhost:8080/api/orders`
+
+
+
+- **Метод:** `GET`
+`http://localhost:8080/api/orders/{id}`
+http://localhost:8080/api/orders/1`
+
+
+
+
+`POST`
+`http://localhost:8080/api/orders`
+
+```json
+{
+  "customerName": "Иван Иванов",
+  "customerEmail": "ivan@example.com",
+  "shippingAddress": "ул. Ленина, д. 10",
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 2
+    },
+    {
+      "productId": 2,
+      "quantity": 1
+    }
+  ]
+}
+
+`PUT`
+`http://localhost:8080/api/orders/{id}/status`
+`http://localhost:8080/api/orders/1/status?status=SHIPPED`
+
+
+
+
+ `DELETE`
+`http://localhost:8080/api/orders/{id}`
+-`http://localhost:8080/api/orders/1`
+
